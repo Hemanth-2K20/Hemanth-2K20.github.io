@@ -1,0 +1,263 @@
+.navbar{
+    background-color: rgba(128, 128, 128, 0.332);
+    height: 60px;
+    text-align:end;
+
+
+}
+button{
+    
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 21px;
+    margin-right: 25px;
+    
+}
+.Tag{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px; 
+    margin-top: 30px; 
+    background-color: rgba(246, 248, 249, 0.801);
+}
+.menu{
+    background-color: rgba(222, 212, 212, 0.611);
+    height: 190px;
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    flex-direction: row;
+    overflow:auto;
+}
+.items{
+    height: 130px;
+    width: 130px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    
+}
+.offers{
+    height: 220px;
+    background-color: rgba(128, 128, 128, 0.407);
+    margin-top: 30px;
+}
+.heading{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+.container{
+    display:flex;
+    height:auto;
+    
+    background-color: rgba(97, 106, 106, 0.29);
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    gap: 60px;
+    
+
+}
+.food{
+    height: 220px;
+    width: 280px;
+    background-color: azure;
+    border: 3px solid black;
+    border-radius: 15px;
+    color: #22223b;
+
+}
+.inside{
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 150px;
+
+}
+.food:hover{
+    transition: transform 1s ease;
+    transform: scale(0.9);
+}
+#food1{
+    margin-top: 40px;
+}
+#food2{
+    margin-bottom: 40px;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    height: 300px;
+    width:100%;
+    color: white;
+    background-color: #22223b;
+    display: flexbox;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+a{
+    text-decoration: none;
+    color: rgb(220, 227, 234);
+}
+#box{
+    display: inline-block;
+}
+
+.comment {
+        font-family: cursive;
+ }
+ .price{
+    display: flex;
+    gap: 60px;
+ }
+ .dishinfo{
+    display: flex;
+    gap: 87px;
+ }
+ .rating{
+    height: auto;
+    background-color: rgb(153, 255, 0);
+    margin-top: 2px;
+    color: rgb(241, 242, 243);
+ }
+ #inside1{
+    background-image: url(zbiryani.webp);
+    background-size: cover;
+
+ }
+ #inside2{
+    background-image: url("food.dominoes.avif");
+    background-size: cover;
+ }
+ #inside3{
+    background-image: url("https://images.pexels.com/photos/1059943/pexels-photo-1059943.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+ }
+ #inside4{
+    background-image: url("zinside4.png");
+    background-size: cover;
+    
+ }
+ #inside5{
+    background-image: url("zinside5.jpg");
+    background-size: cover;
+ }
+ #inside6{
+    background-image: url("zinside4.png");
+    background-size: cover;
+ }
+ #inside7{
+    background-image: url("zinside7.avif");
+    background-size: cover;
+ }
+ #inside8{
+    background-image: url("zinside8.avif");
+    background-size: cover;
+ }
+ #inside9{
+    background-image: url("zinside9.avif");
+    background-size: cover;
+ }
+ #inside10{
+    background-image: url("zinside10.avif");
+    background-size: cover;
+ }
+ #inside11{
+    background-image: url("zinside11.avif");
+    background-size: cover;
+ }
+ #inside12{
+   background-image: url("zinside12.avif");
+   background-size: cover;
+}
+#inside13{
+   background-image: url("zinside13.avif");
+   background-size: cover;
+}
+#inside14{
+   background-image: url("zinside14.avif");
+   background-size: cover;
+}
+#inside15{
+   background-image: url("zinside15.avif");
+   background-size: cover;
+}
+#inside16{
+   background-image: url("zinside16.avif");
+   background-size: cover;
+}
+#inside17{
+   background-image: url("zinside17.avif");
+   background-size: cover;
+}
+#inside18{
+   background-image: url("zinside18.avif");
+   background-size: cover;
+}
+#inside19{
+   background-image: url("zinside19.avif");
+   background-size: cover;
+}
+#inside20{
+   background-image: url("zinside20.avif");
+   background-size: cover;
+}
+ #item1{
+    background-image: url("zbiryani.png");
+    background-size: contain;
+
+ }
+ #item2{
+    background-image: url("zpizza.png");
+    background-size: cover;
+ }
+ #item3{
+    background-image: url("zdosa2.avif");
+    background-size: cover;
+ }
+ #item4{
+    background-image: url("zicecream.jpg");
+    background-size: contain ;
+ }
+ #item5{
+    background-image: url("zcake.png");
+    background-size: contain;
+ }
+ #item6{
+    background-image: url("zsamosa.jpg");
+    background-size: cover;
+ }
+ #item7{
+    background-image: url(zmenuchaat.avif);
+    background-size: cover;
+    
+ }
+ #item8{
+    background-image: url("zmenushavarma.avif");
+    background-size: cover;
+ }
+ #item9{
+    background-image: url("zmenusandwich.avif");
+    background-size: cover;
+ }
+ #item10{
+    background-image: url(zthali.avif);
+    background-size: cover;
+ }
+ #item11{
+    background-image: url("zmenufriedrice.avif");
+    background-size: cover;
+ }
+ #item12{
+    background-image: url(zrolls.avif);
+    background-size: cover;
+ }
+ #item13{
+    background-image: url(zparatha.avif);
+    background-size: cover;
+ }
