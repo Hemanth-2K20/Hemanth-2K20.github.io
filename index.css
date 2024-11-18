@@ -1,0 +1,268 @@
+body {
+    background-color: rgb(4, 4, 4);
+}
+.head {
+    height: 400px;
+    width: auto;
+    color: rgb(245, 243, 241);
+    background-image: url("index\ img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.t1{
+    padding: 100px 0px;
+}
+.b1 {
+    margin-left: 1000px;
+}
+
+button {
+    margin-right: 40px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background: transparent;
+    margin-top: 10px;
+}
+.navbar {
+    height: 50px;
+}
+.H1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+input {
+    height: 50px;
+    width: 350px;
+    border-radius: 30px;
+    text-align: center;
+}
+.inline {
+    display: inline-block;
+}
+
+.order {
+    background-image: url(food2.jpg);
+    background-size: cover;
+    border: 2px solid white;
+
+
+}
+.order:hover{
+    transition: transform 1s ease;
+    transform: scale(1.07);
+}
+
+.dining {
+    background-image: url(food1.jpg);
+    background-size: cover;
+}
+.dining:hover{
+    transition: transform 1s ease;
+    transform: scale(1.07);
+}
+
+.party {
+    background-image: url(food\,pub.jpg);
+    background-size: cover;
+}
+.party:hover{
+    transition: transform 1s ease;
+    transform: scale(1.07);
+}
+.fuck {
+    text-align: center;
+    top: 30px;
+    
+    
+}
+
+.order,
+.dining,
+.party {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 90px;
+    width: 250px;
+    border: 3px solid rgb(210, 210, 208);
+    background-color: rgb(20, 19, 17);
+    font-size: 25px;
+    font-weight: 30px;
+    text-align: center;
+    margin-top: 30px;
+    color: whitesmoke;
+    display: inline-block;
+    margin-left: 30px;
+    border-radius: 25px;
+}
+
+.menu {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.quote {
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+    background-image: url(food\ 4.png);
+    background-size: cover;
+}
+
+footer {
+    height: 300px;
+    width: auto;
+    color: white;
+    background-color: #22223b;
+    display: flexbox;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#container {
+    background-color: #030424;
+    color: rgb(204, 205, 206);
+    border: 3px solid;
+
+
+}
+
+#review1,
+#heading {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+}
+
+.review {
+    font-family: 'cursive', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+    border: 3p solid;
+    font-size: 30px;
+}
+
+#review2,
+#review3 {
+    display: inline-block;
+}
+
+.pic {
+    height: 80px;
+    width: 80px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+#review1 {
+    margin-left: 500px;
+    margin-bottom: 20px;
+}
+
+#review2 {
+    margin-left: 100px;
+}
+
+#review3 {
+    margin-top: 50px;
+    margin-left: 730px;
+    margin-bottom: 30px;
+}
+
+#heading {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 70px;
+    margin-top: 40px;
+    color: yellow;
+    text-shadow: 0px 0px 5px rgba(163, 180, 15, 0.5);
+}
+
+#pic1 {
+    background-image: url("karthikeya.jpg");
+    background-size: cover;
+}
+
+#pic2 {
+    background-image: url("sugi.jpg");
+    background-size: cover;
+}
+
+#pic3 {
+    background-image: url("kousik.jpg");
+    background-size: cover;
+}
+
+#name1 {
+    margin-left: 20px;
+    font-family: ;
+}
+
+#name2 {
+    margin-left: 33px;
+}
+
+#name3 {
+    margin-left: 20px;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#box {
+    display: inline-block;
+}
+
+.comment {
+        font-family: cursive;
+ }
+
+
+span {
+    font-size: 20px;
+}
+
+.info {
+    margin-top: 26px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.discount {
+    height: 500px;
+    width: auto;
+    color: rgba(245, 245, 245, 0.666);
+    background-color: rgba(7, 7, 7, 0.321);
+    background-image: url("food\ burger\ 22.jpg");
+    background-size: cover;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.discount1 {
+    font-size: 50px;
+}
+
+.discount2 {
+    font-size: 55px;
+    border: 3px dashed rgba(241, 241, 12, 0.742);
+    width: 430px;
+    margin-left: 520px;
+    margin-top: ;
+}
+
+#Discount {
+    padding-top: 20px;
+}
